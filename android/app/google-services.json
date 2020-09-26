@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476539825031",
+    "firebase_url": "https://help--open-dil-hackathon.firebaseio.com",
+    "project_id": "help--open-dil-hackathon",
+    "storage_bucket": "help--open-dil-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476539825031:android:ec3da9701ac0c6fa328122",
+        "android_client_info": {
+          "package_name": "com.example.open_dil_hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476539825031-fiubt1iafd6hhs8gak085fhqib2iksm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC65QXWkVJjhCKFC_5a_I0A6BrieSf4eNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476539825031-fiubt1iafd6hhs8gak085fhqib2iksm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
