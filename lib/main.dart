@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'screens/sign_in/sign_in_screen.dart';
-
+import 'package:shop_app/screens/splash/splash_screen.dart';
+import 'package:shop_app/routes.dart';
+import 'theme.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 void main() {
   runApp(MyApp());
 }
@@ -14,14 +16,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Help!',
-      theme: new ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: SignInScreen(),
-      // home: SplashScreen(),
+      theme:theme(),
+//      //home: SignInScreen(),
+//      home: SplashScreen(),
       // We use routeName so that we dont need to remember the name
-      /*initialRoute: SplashScreen.routeName,
-      routes: routes,*/
+      initialRoute: SplashScreen.routeName,
+      routes: routes,
     );
   }
 }
