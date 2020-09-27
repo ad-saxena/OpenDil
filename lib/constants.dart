@@ -15,14 +15,14 @@ const kTextColor = Color(0xFF757575);
 const kAnimationDuration = Duration(milliseconds: 200);
 
 final headingStyle = TextStyle(
-  fontSize: 25,
+  fontSize: getProportionateScreenWidth(28),
   fontWeight: FontWeight.bold,
   color: Colors.black,
   height: 1.5,
 );
 
 final style1 = TextStyle(
-  fontSize: 25,
+  fontSize: getProportionateScreenWidth(31),
   fontWeight: FontWeight.bold,
   color: Colors.white.withOpacity(0.8),
   height: 1.5,
@@ -30,12 +30,37 @@ final style1 = TextStyle(
 );
 
 final style2 = TextStyle(
-  fontSize: 25,
+  fontSize: getProportionateScreenWidth(22),
   //fontWeight: FontWeight.bold,
   color: Colors.white.withOpacity(0.8),
   height: 1.5,
   //letterSpacing: 5,
 );
+
+
+final style3 = TextStyle(
+  fontSize: getProportionateScreenWidth(18),
+  fontWeight: FontWeight.bold,
+  color: Colors.black,
+  height: 1.5,
+  //letterSpacing: 5,
+);
+final style4 = TextStyle(
+  fontSize: getProportionateScreenWidth(14),
+  //fontWeight: FontWeight.bold,
+  color: Colors.black,
+  height: 1.5,
+  //letterSpacing: 5,
+);
+
+final style5 = TextStyle(
+  fontSize: getProportionateScreenWidth(15),
+  //fontWeight: FontWeight.bold,
+  color: Colors.white,
+  height: 1.5,
+  //letterSpacing: 5,
+);
+
 
 
 const defaultDuration = Duration(milliseconds: 250);
